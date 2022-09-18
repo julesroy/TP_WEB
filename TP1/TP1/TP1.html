@@ -14,6 +14,18 @@
 	
 	<body>
 		<h1 id="Montitre"> TP 1 : HTML5 </h1>
+		<p id="sommaire"><strong>Sommaire:</strong></p>
+		<ul><!-- liste sommaire page TP1 -->
+			<li><a href="#exercice1">Exercice 1</a></li>
+			<li><a href="#exercice2">Exercice 2</a></li>
+			<li><a href="#exercice3">Exercice 3</a></li>
+			<li><a href="#exercice4">Exercice 4</a></li>
+			<li><a href="#exercice5">Exercice 5</a></li>
+			<li><a href="#exercice6">Exercice 6</a></li>
+			<li><a href="#exercice7">Exercice 7</a></li>
+			<li><a href="#exercice8">Exercice 8</a></li>
+			<li><a href="#exercice9">Exercice 9</a></li>
+		</ul>
 		
 		<h2 id="exercice1">Exercice 1: Les titres, sous-titres et les paragraphes</h2>
 
@@ -71,7 +83,7 @@
 		<hr>
 		<h2 id="exercice5">Exercice 5: Les médias en HTML</h2>
 		
-		5.1. Images <!-- C'est un titre de niveau 3. Ajoutez la balise h3 -->
+		<h3>5.1. Images</h3> <!-- C'est un titre de niveau 3. Ajoutez la balise h3 -->
 		
 		<p>On peut ajouter les images avec la balise de type en-ligne &lt; img&gt; qui permet de mettre une image dans un texte, 
 		<img src="images/logo.png" alt ="Logo JUNIA" width="100" height="50"/> c'est-à-dire qu'elle s'affiche au fil du texte.</p>
@@ -94,7 +106,7 @@
 		
 		<p>Les formats d'images supportés par tous les navigateurs sont: APNG, GIF, ICO, JPEG, PNG, SVG</p>
 		
-		5.2. Vidéos <!-- C'est un titre de niveau 3. Ajoutez la balise h3 -->
+		<h3>5.2. Vidéos</h3> <!-- C'est un titre de niveau 3. Ajoutez la balise h3 -->
 		
 		<p>Pour ajouter les vidéos, on utilise la balise &lt; video&gt; . Seul les formats MP4, WebM et Ogg sont supportés en HTML5.</p>
 		
@@ -107,7 +119,7 @@
 
 		<br>
 
-		5.3. Audios <!-- C'est un titre de niveau 3. Ajoutez la balise h3 -->
+		<h3>5.3. Audios</h3> <!-- C'est un titre de niveau 3. Ajoutez la balise h3 -->
 		
 		<p>Pour ajouter les audios, on utilise la balise &lt; audio&gt;. Seul les formats MP3, WAV et OGG sont supportés en HTML5.</p>
 		
@@ -179,19 +191,8 @@
 		<p>Question: Créez un sommaire sous forme d'une liste non ordonnée au-dessous du titre h1 (en haut de la page), et ajoutez des liens hypertextes 
 		à ce sommaire vers l'emplacement de chaque exercice (Les liens Hypertextes sont à mettre dans les balise li) </p>
 		
-		<p><strong>Sommaire:</strong></p>
-		<ul>
-			<li><a href="#exercice1">Exercice 1</a></li>
-			<li><a href="#exercice2">Exercice 2</a></li>
-			<li><a href="#exercice3">Exercice 3</a></li>
-			<li><a href="#exercice4">Exercice 4</a></li>
-			<li><a href="#exercice5">Exercice 5</a></li>
-			<li><a href="#exercice6">Exercice 6</a></li>
-			<li><a href="#exercice7">Exercice 7</a></li>
-			<li><a href="#exercice8">Exercice 8</a></li>
-			<li><a href="#exercice9">Exercice 9</a></li>
-		</ul>
-		
+		<p style="color: red;"><strong>Voir sommaire en haut de la page <a href="#sommaire">ici</a></strong></p>
+
 		<hr>
 		<h2 id="exercice8">Exercice 8: Les tableaux</h2>
 		<p>Voici les balises à retenir pour créer un tableau en HTML:</p>
@@ -231,7 +232,7 @@
 		</figure >
 		<p>Ce tableau comporte 6 lignes et 4 colonnes.</p>
 
-		<table>
+		<table><!-- création du tableau -->
 			<caption> Présentation de quelques cours</caption>
 			<thead> <!-- optionnel -->
 				<tr> <!-- ligne 1 -->
@@ -245,17 +246,17 @@
 			
 			<tbody> <!-- optionnel -->
 				<tr> <!-- ligne 2 -->
-					<th rowspan="2">Daniel Martin</th>
-					<th colspan="2">Un cours X1 pour etudiants de niveau 1 et 2</th>
+					<th rowspan="2">Daniel Martin</th><!-- extension de la colonne sur 2 lignes -->
+					<th colspan="2">Un cours X1 pour etudiants de niveau 1 et 2</th><!-- extension de la ligne sur 2 colonnes -->
 					<th></th>
 				</tr>
 				
 				<tr> <!-- ligne 3 -->
-					<th colspan="3">Un cours X2 pour etudiants de tout niveaux</th>
+					<th colspan="3">Un cours X2 pour etudiants de tout niveaux</th><!-- extension de la ligne sur 3 colonnes -->
 				</tr>
 				
 				<tr> <!-- ligne 4 -->
-					<th rowspan="2">Alan Turing</th>
+					<th rowspan="2">Alan Turing</th><!-- extension de la colonne sur 2 lignes -->
 					<th>Un cours X3 pour de niveau 1</th>
 					<th></th>
 					<th></th>
@@ -263,7 +264,7 @@
 				
 				<tr> <!-- ligne 5 -->
 					<th></th>
-					<th colspan="2">Un cours X4 pour de niveau 2 et 3</th>
+					<th colspan="2">Un cours X4 pour de niveau 2 et 3</th><!-- extension de la ligne sur 2 colonnes -->
 				</tr>
 			</tbody>
 			
@@ -308,5 +309,21 @@
 		<br>
 		<img src="images/resultats_test_html.jpg" alt="Resultat test" style="width: 70%; height: auto;">
 		
+
+		<!-- Créations SVG -->
+		<h2>Créations personnelles en SVG</h2>
+		<br>
+		<svg width="400" height="180">
+			<rect x="50" y="20" rx="20" ry="20" width="300" height="150"
+			style="fill:red;stroke:black;stroke-width:5;opacity:1" />
+			<text fill="#ffffff" font-size="45" font-family="Verdana" x="77" y="110">ROY JULES</text>
+			Sorry, your browser does not support inline SVG.
+		</svg>
+		<br>
+		<svg height="210" width="500">
+			<polygon points="160,0 250,210 160,210" style="fill:black;stroke:black;stroke-width:1" />
+			<polygon points="160,0 250,210 250,0" style="fill:red;stroke:red;stroke-width:1"/>
+			Sorry, your browser does not support inline SVG.
+		</svg>
 	</body>
 </html>
