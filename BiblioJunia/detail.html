@@ -6,13 +6,14 @@
     <meta name="description" content="Détail du livre">
     <meta name="keywords" content="livre, HTMLS, CSS3, Cristohphe AUBRY">
     <meta name="author" content="ROY Jules">
+    <link rel="stylesheet" href="css/biblio.css">
     <link rel="icon" type="image/x-icon" href="images/icon.ico">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo JUNIA">
+        <img src="images/logo.png" alt="Logo JUNIA" id="logo">
         <br>
-        <a href="#">Se connecter</a>
+        <a href="#" id="login">Se connecter</a>
     </header>
 
     <nav>
@@ -26,7 +27,7 @@
 
     <main>
         <img src="images/covers/livre1.jpg" alt="Couverture du livre" />
-        <h1>HTML5 et CSS3 : Maîtrisez les standards de la création de sites web</h1>
+        <h1 class="h1detail">HTML5 et CSS3 : Maîtrisez les standards de la création de sites web</h1>
         <p>Auteur: Christophe AUBRY </p>
         <p>Edition: ENI</p> 
         <p>Date de parution: Novembre 2020</p>
@@ -98,10 +99,10 @@
         </dl>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10122.473941582957!2d3.0400270977630695!3d50.634203773622225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d578da129f7d%3A0xd134d73fb7f4c699!2sJunia%20ISEN%20Lille!5e0!3m2!1sfr!2sfr!4v1662571038333!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <ul>
-            <li><a href="lettre.html">Inscrivez-vous à la newsletter</a></li>
-            <li><a href="contact.html">Contactez-nous</a></li>
+            <li><a href="lettre.html" class="formLink">Inscrivez-vous à la newsletter</a></li>
+            <li><a href="contact.html" class="formLink">Contactez-nous</a></li>
         </ul>
-        <ul>
+        <ul id="socialicon">
             <li><a href="https://facebook.com/biblioJunia/" target="_blank"><img src="images/facebook.png" alt="Facebook Junia Bibliothèque"></a></li>
             <li><a href="https://twitter.com/biblioJunia/" target="_blank"><img src="images/twitter.png" alt="Twitter Junia Bibliothèque"></a></li>
             <li><a href="https://instagram.com/biblioJunia/" target="_blank"><img src="images/instagram.png" alt="Instagram Junia Bibliothèque"></a></li>
