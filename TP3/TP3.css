@@ -1,0 +1,380 @@
+*{
+	box-sizing:border-box;
+}
+#titre{
+	color:#006560;
+	text-align:center;
+}
+/* ---------EXERCICE 1  -----------*/
+#Exercice1{
+	border-style:solid;
+	padding:1%;
+	width:70%;
+	height:300px;
+	margin: auto;
+}
+#Exercice1 .boitebleue, #Exercice1 .boiteorange, #Exercice1 .boiteverte { 
+	border:thick solid;
+	width:20%;
+	height:100px;
+}
+
+#Exercice1 .boitebleue {/*Boite de référence*/
+	border-color:blue;
+}
+
+#Exercice1 .boiteorange {
+	border-color:orange;
+	/*position:... ; positionnement "relative" */
+	/*bottom:...; pousser du bas de 100px*/
+	/*left:...; pousser de la gauche de 20% */
+}
+
+#Exercice1 .boiteverte {
+	border-color:green;
+	/* positionnement "relative" */
+	/*top:...; pousser du haut de 20px*/
+	/*right:...; pousser de la droite de 50px */
+}
+
+
+/* ---------EXERCICE 2 (1)-----------*/
+#Exercice2-1{
+	border-style:solid;
+	padding:1%;
+	width:70%;
+	margin: auto;
+	height:300px;
+	/*Mettez ce conteneur en posistonnement "relative" */
+}
+#Exercice2-1 .boitebleue, #Exercice2-1 .boiteorange, #Exercice2-1 .boiterose, #Exercice2-1 .boiteverte { 
+	border:thick solid;
+}
+#Exercice2-1 .boiteorange {
+	border-color:orange;
+	width:20%;
+	/*positionnement "absolute"*/
+	/*pousser du haut de 1%*/
+	/*pousser de la gauche de 1%*/
+}
+#Exercice2-1 .boiteverte {
+	border-color:green;
+	width:20%;
+	/*positionnement "absolute"*/
+	/*pousser du haut de 1%*/
+	/*pousser de la droite de 1%*/
+}
+#Exercice2-1 .boitebleue {
+	border-color:blue;
+	/*positionnement "absolute"*/
+	/*pousser du haut de 1%*/
+	/*pousser de la droite de 25%*/
+	/*pousser de la gauche de 25%*/
+	/*pousser du bas de 40%*/
+}
+#Exercice2-1 .boiterose {
+	border-color:pink;
+	/*positionnement "absolute" et pousser du haut, gauche, droite et bas*/
+}
+
+
+/* ---------EXERCICE 2 (2)-----------*/
+
+/*Compléter le code CSS */
+#Exercice2-2{
+	border-style:solid;
+	padding:1%;
+	width:70%;
+	margin: auto;
+	height:300px;
+}
+#Exercice2-2 .boitebleue, #Exercice2-2 .boiteorange, #Exercice2-2 .boiterose, #Exercice2-2 .boiteverte { 
+	border:thick solid;
+}
+#Exercice2-2 .boiteorange {
+	border-color:orange;
+	width:20%;
+}
+
+#Exercice2-2 .boiteverte {
+	border-color:green;
+	width:20%;
+}
+
+#Exercice2-2 .boitebleue {
+	border-color:blue;
+}
+
+#Exercice2-2 .boiterose {
+	border-color:pink;
+}
+
+
+/* ---------EXERCICE 3 (1)-----------*/
+
+#Exercice3-1{
+	border-style:solid;
+	padding:1%;
+	width:70%;
+	margin: auto;
+}
+
+#Exercice3-1 .flottant-Gauche{
+	border:thick solid red;
+	/*éléments flottants à gauche */
+}
+
+#Exercice3-1 .flottant-Droit{
+	border:thick solid green;
+	/*éléments flottants à droit */
+}
+
+#Exercice3-1 .non-flottant{
+	border:thick solid blue;
+	/*éléments non flottant qui doit se positionner après les éléments flottants (pensez clear)*/
+}
+
+
+/* ---------EXERCICE 3 (2)-----------*/
+/*Compléter le code CSS */
+#Exercice3-2 {
+	width:600px;
+	margin: auto;
+	font-weight:bold;
+	text-align:center;
+}
+#Exercice3-2 .bleu-ciel {
+	width:600px;
+	height:50px;
+	background-color:#ADDFDE;
+}
+#Exercice3-2 .conteneur {
+	width:100px;
+	height:400px;
+}
+#Exercice3-2 .boiteverte {
+	width:100px;
+	height:200px;
+	background-color:#A5DF39;
+}
+#Exercice3-2 .boiterose {
+	width:100px;
+	height:200px;
+	background-color:pink;
+}
+#Exercice3-2 .boitejaune {
+	width:500px;
+	height:400px;
+	background-color:yellow;
+}
+
+#Exercice3-2 .boitegrise {
+	width:150px;
+	height:150px;
+	background-color:silver;
+}
+#Exercice3-2 .boiterouge {
+	width:150px;
+	height:50px;
+	background-color:red;
+}
+#Exercice3-2 .boitebleue {
+	width:600px;
+	height:50px;
+	background-color:blue;
+}
+
+/* ---------EXERCICE 4 -----------*/
+/*Compléter le code CSS */
+#Exercice4{
+	border-style:solid;
+	padding:1%;
+	width:70%;
+	margin: auto;
+}
+#Exercice4 img{
+	width:150px;
+}
+#Exercice4 h3{
+	border:4px solid #006560;/*Vert de ISEN*/
+}
+#Exercice4 span{
+	
+	/* décaler à gauche de -30px*/
+}
+#Exercice4 span:nth-child(1){/*Style de la première lettre : P */
+	
+}
+#Exercice4 span:nth-child(2){
+	
+}
+#Exercice4 span:nth-child(3){
+	
+}
+#Exercice4 span:nth-child(4){
+	
+}
+#Exercice4 span:nth-child(5){
+	
+}
+#Exercice4 span:nth-child(6){
+	
+}
+#Exercice4 span:nth-child(7){
+	
+}
+#Exercice4 span:nth-child(8){
+	
+}
+#Exercice4 span:nth-child(9){
+	
+}
+#Exercice4 span:nth-child(10){
+	
+}
+#Exercice4 span:nth-child(11){
+	
+}
+#Exercice4 span:nth-child(12){
+	
+}
+#Exercice4 span:nth-child(13){
+	
+}
+#Exercice4 span:nth-child(14){/*Style de la dernière lettre : t */
+	
+}
+
+#Exercice4 .sample{
+	word-spacing:5px;
+	font-size:70px;
+}
+
+/* ---------EXERCICE 5 -----------*/
+#Exercice5{
+	border-style:solid;
+	padding:10px;
+	width:400px;
+	margin: auto;
+}
+#Exercice5 h3{
+	background-color:#006560; /*Vert de ISEN*/
+	color:white;
+	height:50px;
+	padding:3%;
+	text-align:center;
+}
+#Exercice5 dt {
+	border-top: 1px solid orange;
+	background-color: orange;
+	color: white;
+	text-align:center;
+	padding:1%;
+	margin-top:2%;
+
+}
+#Exercice5 dd {
+	border-top: 1px solid orange;
+}
+#Exercice5 dd:hover {
+}
+
+/* ---------EXERCICE 6 -----------*/
+#Exercice6{
+	border: 2px solid;
+	width: 200px;
+	height: 200px;
+	margin:auto;
+}
+#Exercice6 .cercle{
+	width: 40px;
+	height: 40px;
+	padding:8px;
+	border: 2px solid;
+	font-size:20px;
+	text-align:center;
+}
+
+#Exercice6 .anim1{
+	border-color:blue;
+}
+#Exercice6 .anim2{
+	Border-color:green;
+}
+#Exercice6 .anim3{
+	Border-color:red;
+}
+
+
+/* ---------EXERCICE 7 -----------*/
+#Exercice7 {
+	border: 2px solid red;
+	width: 70%;
+	margin:auto;
+}
+#Exercice7 .diapo img{
+	
+}
+#Exercice7 .diapo{
+	border: 2px dashed blue;
+}
+
+/* ---------EXERCICE 8 (1) -----------*/
+#Exercice8-1 {
+	border:solid red;
+	margin: 100px auto;
+}
+
+#Exercice8-1 img{
+
+}
+
+#Exercice8-1:hover img:nth-child(1){
+	
+}
+#Exercice8-1:hover img:nth-child(2){
+	
+}
+#Exercice8-1:hover img:nth-child(3){
+	
+}
+#Exercice8-1:hover img:nth-child(4){
+	
+}
+#Exercice8-1:hover img:nth-child(5){
+	
+}
+
+#Exercice8-1 img:nth-child(1):hover{
+	
+}
+#Exercice8-1 img:nth-child(2):hover{
+	
+}
+#Exercice8-1 img:nth-child(3):hover{
+
+}
+#Exercice8-1 img:nth-child(4):hover{
+
+}
+#Exercice8-1 img:nth-child(5):hover{
+
+}
+
+
+/* ---------EXERCICE 8(2) -----------*/
+#Exercice8-2  {
+	height: 200px;
+	width: 200px;
+	margin: 100px auto;
+}
+
+#Exercice8-2 .content {
+	text-align:center;
+	height: 200px;
+	width:200px;
+	padding-top:40%;
+	font-size:24pt;
+}
+
+
