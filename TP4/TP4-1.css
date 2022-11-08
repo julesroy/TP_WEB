@@ -1,0 +1,89 @@
+*{
+	box-sizing:border-box;
+}
+#titre{
+	color:#006560;
+	text-align:center;
+}
+#Exercice1,#Exercice2,#Exercice3,#Exercice4,#Exercice5,#Exercice6{
+	border-style:solid;
+	margin: auto;
+	width:600px;
+}
+.elt{
+	border: 1px solid rgb(151, 148, 148);
+	font-weight: bold;
+}
+.eltA {
+	background-color: green;
+}
+.eltB {
+	background-color: yellow;
+}
+.eltC {
+	background-color: pink;
+}
+.eltD {
+	background-color: silver ;
+}
+.eltE{
+	background-color:deepskyblue
+}
+
+/* ---------EXERCICE 1  -----------*/
+#Exercice1{
+
+	/* Appliquer à ce conteneur la disposition flexible*/
+	/* Positionner les éléments fléxibles en ligne avec ordre inversé (row-reverse) */
+	/* Définir l’alignement des éléments flexibles selon l’axe principal en ajoutant un espace entre les boites*/
+}
+#Exercice1 .elt {
+	width: 50px;
+	height: 50px;
+}
+
+/* ---------EXERCICE 2  -----------*/
+#Exercice2{
+	width:800px;
+}
+#Exercice2 .elt {
+	width: 50px;
+	height: 50px;
+}
+
+#Exercice2 .eltA {
+}
+#Exercice2 .eltB {
+}
+#Exercice2 .eltC {
+}
+#Exercice2 .eltD {
+}
+
+/* --------- EXERCICE 3 -----------*/
+#Exercice3{
+	height:300px;
+}
+#Exercice3 .elt {
+	width: 50px;
+}
+#Exercice3 .eltA {
+}
+#Exercice3 .eltB {
+}
+#Exercice3 .eltC{
+}
+
+/* --------- EXERCICE 4  -----------*/
+#Exercice4{
+}
+#Exercice4 .eltA {
+}
+#Exercice4 .eltB {
+}
+#Exercice4 .eltC {
+}
+#Exercice4 .eltD {
+}
+#Exercice4 .eltE {
+}
